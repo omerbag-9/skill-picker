@@ -1,0 +1,11 @@
+{
+  "name": "skill-router",
+  "owner": { "name": "skill-router contributors" },
+  "plugins": [
+    {
+      "name": "skill-router",
+      "source": "./",
+      "description": "Automatically routes every task to the skills you already have installed. Loads once per session."
+    }
+  ]
+}

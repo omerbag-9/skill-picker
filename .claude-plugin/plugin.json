@@ -1,0 +1,7 @@
+{
+  "name": "skill-router",
+  "version": "1.0.0",
+  "description": "Automatically routes every task to the skills you already have installed, so you never have to name a skill in your prompt. Loads once per session to keep token cost low.",
+  "license": "MIT",
+  "keywords": ["skills", "router", "automation", "productivity"]
+}
