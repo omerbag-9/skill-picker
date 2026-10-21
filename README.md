@@ -29,7 +29,7 @@ The hook fires again after `/clear` or when a long conversation gets compacted, 
 Inside Claude Code:
 
 ```
-/plugin marketplace add omerbag-9/skill-router
+/plugin marketplace add omerbag-9/skill-picker
 /plugin install skill-picker@skill-picker
 ```
 
@@ -37,7 +37,7 @@ Start a new session and you're done.
 
 ### Option B: Account-wide skill on claude.ai (syncs to every device)
 
-1. Download `skill-router.zip` from the [latest release](https://github.com/omerbag-9/skill-router/releases/latest).
+1. Download `skill-router.zip` from the [latest release](https://github.com/omerbag-9/skill-picker/releases/latest).
 2. On claude.ai go to **Settings → Capabilities → Skills → Upload skill** and turn it on.
 
 This syncs to every device signed into your account, and it also works in claude.ai chat. You don't get the hook this way, so the skill relies on its description to load itself on the first task. That works most of the time but isn't guaranteed. Use Option A as well in Claude Code if you want it reliable.
@@ -45,9 +45,9 @@ This syncs to every device signed into your account, and it also works in claude
 ### Option C: Manual
 
 ```bash
-git clone https://github.com/omerbag-9/skill-router.git
+git clone https://github.com/omerbag-9/skill-picker.git
 mkdir -p ~/.claude/skills
-cp -r skill-router/skills/skill-picker ~/.claude/skills/
+cp -r skill-picker/skills/skill-picker ~/.claude/skills/
 ```
 
 ## Customize
