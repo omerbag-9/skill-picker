@@ -1,9 +1,9 @@
 {
-  "name": "skill-router",
-  "owner": { "name": "skill-router contributors" },
+  "name": "skill-picker",
+  "owner": { "name": "omerbag-9", "url": "https://github.com/omerbag-9" },
   "plugins": [
     {
-      "name": "skill-router",
+      "name": "skill-picker",
       "source": "./",
       "description": "Automatically routes every task to the skills you already have installed. Loads once per session."
     }

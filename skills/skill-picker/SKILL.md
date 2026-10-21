@@ -1,9 +1,9 @@
 ---
-name: skill-router
+name: skill-picker
 description: ALWAYS load this on the FIRST task of every session or conversation, before doing any work — it routes tasks to the user's installed skills so they never have to name one. Covers coding, documents, spreadsheets, slides, PDFs, research, charts, config, reviews and any domain-specific skills the user has. Load it only once per session, then keep applying its routing to every later task without loading it again.
 ---
 
-# Skill Router
+# Skill Picker
 
 The user should never have to tell you which skill to use. You pick them, load them, and then do the task.
 
@@ -18,7 +18,7 @@ The user should never have to tell you which skill to use. You pick them, load t
 
 ## Rules
 
-- **Load this skill once per session.** After that, keep applying the procedure yourself on every new task for the rest of the session — don't invoke `skill-router` again.
+- **Load this skill once per session.** After that, keep applying the procedure yourself on every new task for the rest of the session — don't invoke `skill-picker` again.
 - Don't re-invoke a skill already loaded in this conversation (unless the context was compacted and its instructions are gone).
 - If the user names a skill themselves, use theirs and skip routing.
 - If the task changes topic mid-conversation, route again for the new topic.
