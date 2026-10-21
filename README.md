@@ -60,6 +60,10 @@ Edit the **Routing hints** table in `skills/skill-router/SKILL.md` to map your o
 /plugin uninstall skill-router@skill-router
 ```
 
+## Author
+
+[omerbag-9](https://github.com/omerbag-9)
+
 ## License
 
 MIT
