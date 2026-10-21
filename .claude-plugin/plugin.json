@@ -1,5 +1,5 @@
 {
-  "name": "skill-router",
+  "name": "skill-picker",
   "version": "1.0.0",
   "description": "Automatically routes every task to the skills you already have installed, so you never have to name a skill in your prompt. Loads once per session to keep token cost low.",
   "author": { "name": "omerbag-9", "url": "https://github.com/omerbag-9" },

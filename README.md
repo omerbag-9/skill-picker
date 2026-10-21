@@ -1,6 +1,6 @@
-# skill-router
+# skill-picker
 
-**Stop telling Claude which skill to use.** `skill-router` makes Claude look at the skills you already have installed, pick the ones that fit your task, and load them automatically.
+**Stop telling Claude which skill to use.** `skill-picker` makes Claude look at the skills you already have installed, pick the ones that fit your task, and load them automatically.
 
 ```
 You:    turn this CSV into a Word report with a chart
@@ -10,7 +10,7 @@ Claude: Using skills: xlsx, dataviz, docx
 
 ## Why
 
-Claude chooses skills by reading their descriptions, and it often skips them unless you name them in your prompt. `skill-router` adds one routing step at the start of each session, so your skills actually get used.
+Claude chooses skills by reading their descriptions, and it often skips them unless you name them in your prompt. `skill-picker` adds one routing step at the start of each session, so your skills actually get used.
 
 ## Low token cost
 
@@ -30,7 +30,7 @@ Inside Claude Code:
 
 ```
 /plugin marketplace add omerbag-9/skill-router
-/plugin install skill-router@skill-router
+/plugin install skill-picker@skill-picker
 ```
 
 Start a new session and you're done.
@@ -47,17 +47,17 @@ This syncs to every device signed into your account, and it also works in claude
 ```bash
 git clone https://github.com/omerbag-9/skill-router.git
 mkdir -p ~/.claude/skills
-cp -r skill-router/skills/skill-router ~/.claude/skills/
+cp -r skill-router/skills/skill-picker ~/.claude/skills/
 ```
 
 ## Customize
 
-Edit the **Routing hints** table in `skills/skill-router/SKILL.md` to map your own tasks to your own skills, e.g. `| Our API conventions | acme-api-style |`.
+Edit the **Routing hints** table in `skills/skill-picker/SKILL.md` to map your own tasks to your own skills, e.g. `| Our API conventions | acme-api-style |`.
 
 ## Uninstall
 
 ```
-/plugin uninstall skill-router@skill-router
+/plugin uninstall skill-picker@skill-picker
 ```
 
 ## Author
